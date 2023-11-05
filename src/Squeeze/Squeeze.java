@@ -17,7 +17,7 @@ public class Squeeze {
                     break;
                 }
             if (!isSame) // uyuşmayan harfleri ekrana yazar
-            System.out.print(""+c1);
+                System.out.print(""+c1);
         }
     }
 
