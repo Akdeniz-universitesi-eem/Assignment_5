@@ -5,12 +5,16 @@ import Hotel_reservation.subclasses.Customer;
 import Hotel_reservation.subclasses.Receptionist;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        runHotelReservation();
+
+    }
+
+    public static void runHotelReservation(){
         ArrayList<Person> staffs = new ArrayList<>();
         ArrayList<Person> customers = new ArrayList<>();
         Hotel sinaninHotel = new Hotel("Sinan Baba",staffs,customers);
@@ -52,8 +56,6 @@ public class Main {
             default:
                 System.out.println("naber"); break;
         }
-
-
     }
 
     public static void musteriIslemleri(ArrayList<Person> customers){
