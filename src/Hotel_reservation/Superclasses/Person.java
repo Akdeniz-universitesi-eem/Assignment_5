@@ -1,4 +1,4 @@
-package Hotel_reservation.interfaces;
+package Hotel_reservation.Superclasses;
 
 public class Person {
     String name="";
@@ -63,5 +63,13 @@ public class Person {
 
     public void setpNo(String pNo) {
         this.pNo = pNo;
+    }
+    public void MusteriBilgileriniYaz(){
+        System.out.println("İsim : "+name+
+                "\nSoyisim : "+surname+
+                "\nYaş : "+age+
+                "\nTCNO: "+idNo+
+                "\nCinsiyet : "+gender+
+                "\nTelefon NO : "+pNo);
     }
 }

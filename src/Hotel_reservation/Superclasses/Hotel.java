@@ -1,4 +1,4 @@
-package Hotel_reservation.interfaces;
+package Hotel_reservation.Superclasses;
 
 import java.util.ArrayList;
 

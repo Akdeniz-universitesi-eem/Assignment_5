@@ -1,4 +1,4 @@
-package Hotel_reservation.interfaces;
+package Hotel_reservation.Superclasses;
 
 public class Reservation {
     String date="";
@@ -24,4 +24,6 @@ public class Reservation {
         this.date = date;
         this.rN = rN;
     }
+
+
 }

@@ -1,6 +1,6 @@
 package Hotel_reservation.subclasses;
 
-import Hotel_reservation.interfaces.Reservation;
+import Hotel_reservation.Superclasses.Reservation;
 
 public class OnlineRev extends Reservation {
     String email="";

@@ -1,7 +1,7 @@
 package Hotel_reservation.subclasses;
 
-import Hotel_reservation.interfaces.Person;
-import Hotel_reservation.interfaces.Reservation;
+import Hotel_reservation.Superclasses.Person;
+import Hotel_reservation.Superclasses.Reservation;
 
 import java.util.ArrayList;
 
@@ -20,6 +20,11 @@ public class Customer extends Person {
         super(name, surname, age, idNo, gender, pNo);
         this.reservations = reservations;
     }
+public void MusteriBilgileriniYaz1(){
+        super.MusteriBilgileriniYaz();
+    System.out.println("");
 
+
+}
 
 }

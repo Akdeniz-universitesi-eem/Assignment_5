@@ -1,6 +1,7 @@
 package Hotel_reservation.subclasses;
 
-import Hotel_reservation.interfaces.Person;
+import Hotel_reservation.Superclasses.Person;
+import Hotel_reservation.Superclasses.Reservation;
 
 public class Receptionist extends Person {
     int maas;
@@ -10,7 +11,13 @@ public class Receptionist extends Person {
         this.maas = maas;
     }
 
-    public void rezerveDegis(){}
+    public void rezerveDegis( ){
 
-    public void newRezerv(){}
+
+
+    }
+
+    public void newRezerv(){
+
+    }
 }
