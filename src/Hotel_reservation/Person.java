@@ -1,4 +1,4 @@
-package Hotel_reservation.Superclasses;
+package Hotel_reservation;
 
 public class Person {
     String name="";

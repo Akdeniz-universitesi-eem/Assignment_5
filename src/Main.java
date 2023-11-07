@@ -1,10 +1,8 @@
-import Hotel_reservation.Superclasses.Hotel;
-import Hotel_reservation.Superclasses.Person;
-import Hotel_reservation.Superclasses.Reservation;
-import Hotel_reservation.subclasses.Customer;
-import Hotel_reservation.subclasses.OnlineRev;
-import Hotel_reservation.subclasses.Receptionist;
-import Hotel_reservation.subclasses.TelNoRev;
+import Hotel_reservation.Hotel;
+import Hotel_reservation.Person;
+import Hotel_reservation.Reservation;
+import Hotel_reservation.Customer;
+import Hotel_reservation.Receptionist;
 
 import java.util.ArrayList;
 import java.util.Objects;

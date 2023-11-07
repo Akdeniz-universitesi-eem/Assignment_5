@@ -1,7 +1,4 @@
-package Hotel_reservation.subclasses;
-
-import Hotel_reservation.Superclasses.Person;
-import Hotel_reservation.Superclasses.Reservation;
+package Hotel_reservation;
 
 import java.util.ArrayList;
 import java.util.Scanner;
