@@ -65,6 +65,7 @@ public class Person {
         this.pNo = pNo;
     }
     public void MusteriBilgileriniYaz(){
+        System.out.println("\n ");
         System.out.println("İsim : "+name+
                 "\nSoyisim : "+surname+
                 "\nYaş : "+age+

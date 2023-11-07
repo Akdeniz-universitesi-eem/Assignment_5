@@ -2,14 +2,27 @@ import Hotel_reservation.Superclasses.Hotel;
 import Hotel_reservation.Superclasses.Person;
 import Hotel_reservation.Superclasses.Reservation;
 import Hotel_reservation.subclasses.Customer;
+import Hotel_reservation.subclasses.OnlineRev;
 import Hotel_reservation.subclasses.Receptionist;
+import Hotel_reservation.subclasses.TelNoRev;
+
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        runHotelReservation();
+        System.out.println("Hoşgeldiniz Kendinizi tanımlayın" +
+                "\n1 : Müşteri girişi " +
+                "\n2 : Müdür girişi" +
+                "\n3 : Resepsiyonist");
+        Scanner scanner = new Scanner(System.in);
+        int choosen = scanner.nextInt();
+        switch (choosen){
+            case 1 : musteriPaneli(); break;
+            case 2 : runHotelReservation(); break;
+            case 3: break;
+        }
 
     }
     public static void runHotelReservation(){
@@ -164,5 +177,30 @@ public class Main {
                 "\n4: EXİT");
     }
 
+    public static void musteriPaneli(){
+        ArrayList<Person> customers = new ArrayList<>();
+       // ArrayList<Reservation> reservations = new ArrayList<>();
+        System.out.println("Musteri islemlerine hosgeldin" +
+                "\nAşağıda yapabileceğin işlemler bulunmaktadır." +
+                "\n1: Tel No ile kayıt olusturma" +
+                "\n2: E-mail ile kayıt oluşturma" +
+                "\n3: EXİT");
+        Scanner scanner = new Scanner(System.in);
+        int choosen = scanner.nextInt();
+        switch (choosen){
+            case 1 :
 
+                Customer yeniMusteri=new Customer("","",0,"","","",new ArrayList<>());
+                yeniMusteri.MusteriKayit();
+                break;
+            case 2 :
+                Customer yeniMusteri1=new Customer("","",0,"","","",new ArrayList<>());
+                yeniMusteri1.MusteriKayit();
+                break;
+            case 3 :
+                System.out.println("Çıkış yapıldı.");break;
+            default:
+                System.out.println("İşlemlerden birini seçin lütfen"); break;
+        }
+    }
 }
